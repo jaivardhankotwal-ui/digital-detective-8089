@@ -38,6 +38,14 @@ Each mission was investigated, documented, and committed separately in sequence 
 
 ---
 
+## My Learning
+Through the hands-on missions in this assignment, I have learned several key technical concepts:
+1. **Operating System and Kernel Abstraction:** How the operating system manages processes, isolates memory spaces, and enforces file permissions (`rwx`) across filesystems.
+2. **Command Line and Pipelines:** How Unix pipes (`|`) dynamically connect the standard output of one command to the standard input of another to filter and process streams cleanly.
+3. **Low-Level Data Representation:** The exact mathematical mechanics of positional base conversions (decimal, binary, hexadecimal) and how computers map binary bytes to human text via ASCII and UTF-8 encoding standards.
+
+---
+
 ## How to Run the Python Tools
 
 ### 1. Hello World (`mission-04-programs/hello.py`)
