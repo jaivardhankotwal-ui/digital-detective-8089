@@ -1,0 +1,2 @@
+Line 1: First entry into file
+Line 2: Second appended entry
