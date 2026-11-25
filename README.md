@@ -27,14 +27,14 @@ Each mission was investigated, documented, and committed separately in sequence 
 | Mission | Title | Focus Area | Status | Folder / Documentation |
 | :---: | :--- | :--- | :---: | :--- |
 | **00** | [Repository & Workspace Setup](mission-00-setup/README.md) | Tools verification, directory layout, git init | Completed | [`mission-00-setup/`](mission-00-setup/) |
-| **01** | [Computer Fundamentals & IPOS](mission-01-computer-basics/README.md) | IPOS activity trace, hardware/software taxonomy | Pending | [`mission-01-computer-basics/`](mission-01-computer-basics/) |
-| **02** | [Terminal & File Management](mission-02-terminal/README.md) | Navigation, file manipulation, flags, pipes | Pending | [`mission-02-terminal/`](mission-02-terminal/) |
-| **03** | [Operating System & Processes](mission-03-operating-system/README.md) | System inspection, process lifecycle, permissions | Pending | [`mission-03-operating-system/`](mission-03-operating-system/) |
-| **04** | [How Programs Run](mission-04-programs/README.md) | Execution pipeline, compiler vs interpreter | Pending | [`mission-04-programs/`](mission-04-programs/) |
-| **05** | [Numbers & Data Representation](mission-05-numbers-data/README.md) | Base conversions, Python converter CLI, encoding | Pending | [`mission-05-numbers-data/`](mission-05-numbers-data/) |
-| **06** | [Git & GitHub Collaboration](mission-06-git-github/README.md) | Branching, pull requests, staging vs committing | Pending | [`mission-06-git-github/`](mission-06-git-github/) |
-| **07** | [Computer Networks](mission-07-networking/README.md) | Network models, DNS lookup, HTTP request cycle | Pending | [`mission-07-networking/`](mission-07-networking/) |
-| **08** | [Final Report & Submission](mission-08-final-report/README.md) | Verification checklist, reflections, final audit | Pending | [`mission-08-final-report/`](mission-08-final-report/) |
+| **01** | [Computer Fundamentals & IPOS](mission-01-computer-basics/README.md) | IPOS activity trace, hardware/software taxonomy | Completed | [`mission-01-computer-basics/`](mission-01-computer-basics/) |
+| **02** | [Terminal & File Management](mission-02-terminal/README.md) | Navigation, file manipulation, flags, pipes | Completed | [`mission-02-terminal/`](mission-02-terminal/) |
+| **03** | [Operating System & Processes](mission-03-operating-system/README.md) | System inspection, process lifecycle, permissions | Completed | [`mission-03-operating-system/`](mission-03-operating-system/) |
+| **04** | [How Programs Run](mission-04-programs/README.md) | Execution pipeline, compiler vs interpreter | Completed | [`mission-04-programs/`](mission-04-programs/) |
+| **05** | [Numbers & Data Representation](mission-05-numbers-data/README.md) | Base conversions, Python converter CLI, encoding | Completed | [`mission-05-numbers-data/`](mission-05-numbers-data/) |
+| **06** | [Git & GitHub Collaboration](mission-06-git-github/README.md) | Branching, pull requests, staging vs committing | Completed | [`mission-06-git-github/`](mission-06-git-github/) |
+| **07** | [Computer Networks](mission-07-networking/README.md) | Network models, DNS lookup, HTTP request cycle | Completed | [`mission-07-networking/`](mission-07-networking/) |
+| **08** | [Final Report & Submission](mission-08-final-report/README.md) | Verification checklist, reflections, final audit | Completed | [`mission-08-final-report/`](mission-08-final-report/) |
 
 ---
 
@@ -43,6 +43,18 @@ Through the hands-on missions in this assignment, I have learned several key tec
 1. **Operating System and Kernel Abstraction:** How the operating system manages processes, isolates memory spaces, and enforces file permissions (`rwx`) across filesystems.
 2. **Command Line and Pipelines:** How Unix pipes (`|`) dynamically connect the standard output of one command to the standard input of another to filter and process streams cleanly.
 3. **Low-Level Data Representation:** The exact mathematical mechanics of positional base conversions (decimal, binary, hexadecimal) and how computers map binary bytes to human text via ASCII and UTF-8 encoding standards.
+4. **Networking Mechanics:** The step-by-step lifecycle of how browser clients communicate across LANs, routers, and DNS lookups to establish secure TLS/TCP connections with web servers.
+
+---
+
+## Topics Explored
+- **Computer Hardware & IPOS Cycle:** Input devices, processing (CPU/RAM), output devices, and non-volatile storage.
+- **Operating System Core Architecture:** Process scheduling, PIDs, virtual memory management, device drivers, and filesystem hierarchies.
+- **File Permissions & Safety:** POSIX permission octals/strings (`rwx`), absolute vs relative paths, non-destructive file appending (`>>`).
+- **Program Compilation vs Interpretation:** Comparison between native ahead-of-time compiled code (C/Rust) and dynamic interpreted bytecode (Python).
+- **Number Systems & Character Encodings:** Mathematical base conversions (base 10, base 2, base 16) and text encoding standards (ASCII vs Unicode UTF-8).
+- **Git Version Control & Collaboration:** Local staging, atomic commits, branch creation, pull requests, and distributed collaboration workflows.
+- **Network Fundamentals:** Network classifications (LAN, MAN, WAN), DNS resolution, routing, packet switching, and the client-server paradigm.
 
 ---
 
@@ -57,6 +69,7 @@ python3 mission-04-programs/hello.py
 ```bash
 python3 mission-05-numbers-data/number_converter.py
 ```
+*Example input:* Enter `25` when prompted. The utility outputs binary `11001` and hexadecimal `19`.
 
 ---
 
